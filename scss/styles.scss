@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+
+
+@font-face {
+    font-family: Formula1-Regular;
+    src: url(../fuentes/Formula1-Regular.ttf);
+}
+
+@font-face {
+    font-family: Formula1-Bold;
+    src: url(../fuentes/Formula1-Bold.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 180px;
+}
+
+body {
+    font-family: Formula1-Regular;
+}

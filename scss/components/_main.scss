@@ -1,0 +1,294 @@
+main{
+padding-top: 140px;
+}
+
+.portadacontainer{
+    display: flex;
+}
+
+.textoportada{
+    padding: 10px;
+    width:100%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    h1{
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+.imgportada{
+width:40%;
+height: 35%;
+margin-left: auto;
+padding-right: 10px;
+img{
+    height: 100%;
+    width:100%;
+}
+}
+
+.videocontainer{
+    padding-top: 25px;
+}
+
+
+.portadatxt-video{
+    width: 59%;
+}
+
+.videoimg{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    img{
+        width: 30%;
+        height: auto;
+        padding: 5px;
+    }
+    video{
+        width: 30%;
+        height: auto;
+    }
+}
+
+.quehacemoscontainer{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    margin:80px auto;
+    .quehacemostxt{
+        width: 100%;
+        margin: auto;
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+.galeriacontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.galeriacontainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeriacontainer img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.servizititle{
+    border-top: 2px solid black; 
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.servicioscontainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    .videoservizicontainer{
+        width: 45%;
+    
+        video{
+            width: 85%;
+            height: auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+    }
+    .serviciostxt{
+        width: 50%;
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+.contactotitle{
+    border-top: 2px solid black; 
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contactocontainer {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    gap: 20px; /* Espaciado entre elementos */
+    margin-top: 20px; /* Margen superior para separar del contenido previo */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.contactocontainer div {
+    display: flex;
+    align-items: center; /* Centra los elementos verticalmente dentro de cada bloque */
+    gap: 10px; /* Espaciado entre el icono y el texto */
+}
+
+.contactocontainer img {
+    width: 50px; /* Tamaño del ícono */
+    height: 50px; /* Tamaño del ícono */
+}
+
+.contactocontainer p, .contactocontainer a {
+    font-size: 16px; /* Tamaño de letra */
+    color: black; /* Color del texto */
+    text-decoration: none; /* Quita subrayado de los enlaces */
+}
+
+.contactocontainer a:hover {
+    color: red; /* Cambia el color al pasar el cursor */
+}
+
+@media only screen and (max-width: 800px) {
+    .portadacontainer{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        justify-content: center;
+    }
+
+    .textoportada{
+        padding: 5px;
+        width:100%;
+        height: auto;
+        margin: auto;
+        margin-top: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: block;
+        h1{
+            font-size: 14px;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    
+    .imgportada{
+    margin-top: 40px;
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding-right: 0px;
+    img{
+        height: 100%;
+        width:100%;
+    }
+    }
+    
+    .videocontainer{
+        padding-top: 25px;
+    }
+    
+    
+    .portadatxt-video{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .videoimg{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        img{
+            display: block;
+            width: 90%;
+            height: auto;
+            padding: 5px;
+            margin: auto;
+        }
+        video{
+            width: 90%;
+            height: auto;
+            margin: auto;
+        }
+    }
+
+    .quehacemoscontainer{
+        border-top: 2px solid black; 
+        border-bottom: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        text-align: center;
+        margin:80px auto;
+        .quehacemostxt{
+            width: 100%;
+            margin: auto;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .servicioscontainer{
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        .videoservizicontainer{
+            width: 90%;
+            margin: auto;
+        
+            video{
+                width: 85%;
+                height: auto;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+            }
+        }
+        .serviciostxt{
+            margin: auto;
+            width: 85%;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}

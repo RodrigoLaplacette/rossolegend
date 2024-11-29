@@ -3,25 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RossoLegend</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"><!--link boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" /><!--link para conectar css con hmtl-->
+    <title>RossoLegends</title>
 </head>
 <body>
     <header>
+        <div class="rossologocontainer">
+            <a href="index.html">
+                <div class="racing-logo">
+                    <img src="img/rossologo.png" alt="logo 3d Racing" />
+                </div>
+            </a>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <!-- Icono del menú -->
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+        </div>
         <div class="menucontainer">
-            <a href="index.html"><div class="racing-logo">
-            <img src="img/3dracingLogoGris.png" alt="logo 3d Racing" />
-            </div> </a>
-        <nav class="menu" id="nav"><!--menu de navegacion-->
-            <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/productos.html">Productos</a></li>
-            <li><a href="pages/nosotros.html">Nosotros</a></li>
-            <li><a href="pages/servicios.html">Servicios</a>
-            </li>
-            <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="menu" id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#quehacemos">Cosa Facciamo</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#contatto">Contatto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="f1animado">
+            <img src="img/sf24.png" alt="f1sf23animada" />
         </div>
     </header>
+    
+    
+    <main class="paginicio">
+        <div class="portadacontainer">
+
+            <div class="portadatxt-video">
+        <article class="textoportada">
+            <h1 class="tituloportada">Trasformiamo le tue passioni in collezioni e creazioni uniche</h1>
+            <p class="parrafoportada">In Rosso Legends portiamo l'emozione della velocità e dell'ingegneria direttamente nelle tue mani. Progettiamo e realizziamo prodotti esclusivi per collezionisti dell'automobilismo, utilizzando tecnologie di stampa 3D all'avanguardia. Ogni pezzo è un tributo all'eccellenza e alla passione per i dettagli. Inoltre, puoi fornirci il tuo design o la tua idea, e noi la trasformeremo in realtà. Scopri le nostre creazioni uniche e vivi l'adrenalina della pista!</p>
+        </article>
+        <div class="videoimg">
+            <img src="img/F2000-Frontwing1.png" alt="f2000-frontwing">
+            <video src="img/F2000-FrontWing.mp4" autoplay loop muted></video>
+            <img src="img/F2000-Frontwing2.png" alt="">
+        </div>
+            </div>
+
+        <div class="imgportada">
+            <img src="img/imgportadaf2004.jpg" alt="">
+        </div>
+                </div>
+
+    <div class="quehacemoscontainer">
+        <article class="quehacemostxt" id="quehacemos">
+            <h3 >Cosa Facciamo</h3>
+            <p>A Rosso Legends realizziamo creazioni straordinarie per collezionisti e appassionati dell’automobilismo. Tra i nostri prodotti troverai diorami dettagliati, basi personalizzate, modelli di Formula 1 a grande e media scala, portachiavi, ali anteriori e pneumatici in miniatura, sottobicchieri, sculture, oggetti decorativi e molto altro. Grazie alla nostra tecnologia avanzata e alla passione per il design, possiamo trasformare le tue idee in realtà. Qualsiasi progetto tu abbia in mente, noi lo realizziamo con precisione e qualità eccezionale.</p>
+        </article>
+    </div>
+    <div class="galeriacontainer">
+    <img src="img/productosvarios.png" alt="Producto 1">
+    <img src="img/pirellisoft2.png" alt="Producto 2">
+    <img src="img/llaveros1.png" alt="Producto 3">
+    <img src="img/posavasos2.png" alt="Producto 4">
+    <img src="img/sf24base3.png" alt="Producto 5">
+    <img src="img/sennaBase1.png" alt="Producto 6">
+    <img src="img/sf1000base.png" alt="Producto 7">
+    <img src="img/sf21base.png" alt="Producto 9">
+    <img src="img/exhibidores1.png" alt="Producto 10">
+    <img src="img/exhibidores2.png" alt="Producto 11">
+    <img src="img/sf1000base2.png" alt="Producto 12">
+    <img src="img/llaveros2.png" alt="Producto 13">
+    <img src="img/fangiobusto.png" alt="Producto 14">
+    <img src="img/sennabusto.png" alt="Producto 15">
+    <img src="img/pirelliwet.png" alt="Producto 16">
+    <img src="img/schumifigura.png" alt="Producto 17">
+    <img src="img/bustoschumi.png" alt="Producto 18">
+    <img src="img/frontwingsf24.png" alt="Producto 19">
+    <img src="img/colapintofrontw.png" alt="Producto 20">
+    </div>
+
+    <article class="servizititle" id="servizi"> <h3>
+        Servizi
+    </h3>
+    </article>
+    <div class="servicioscontainer">
+        <div class="videoservizicontainer">
+            <video src="img/videoservizi.mp4" loop  muted autoplay></video>
+        </div>
+        <article class="serviciostxt">
+            <h5>La Nostra Passione al Tuo Servizio</h5>
+            <p>
+A Rosso Legends, ogni progetto è guidato dalla passione per l'automobilismo e la creatività. Offriamo servizi di stampa 3D e design personalizzati, creando oggetti unici che raccontano storie di velocità e innovazione. Dai diorami realistici e modelli F1 di alta precisione alle basi, ali anteriori e pneumatici in scala, ogni creazione è realizzata con cura artigianale e attenzione ai dettagli.
+Ma non ci fermiamo qui: trasformiamo le tue idee in realtà, lavorando su misura per dare vita a progetti esclusivi, siano essi oggetti decorativi, portaoggetti funzionali o articoli da collezione. Con Rosso Legend, l'immaginazione prende forma, perché crediamo che ogni dettaglio conti quando si tratta di celebrare la bellezza dell'ingegneria e del design.
+Unisciti a noi in questa avventura e scopri come possiamo creare qualcosa di straordinario insieme.
+            </p>
+        </article>
+    </div>
+
+    <article class="contactotitle" id="contatto">
+        <h3>Contatto</h3>
+    </article>
+    <div class="contactocontainer">
+        <div class="emailcontacto">
+            <img src="img/emaillogo.png" alt="">
+            <a href="mailto:rossolegends@gmail.com" target="_blank">rossolegends@gmail.com</a>
+        </div>
+        <div class="wspcontacto">
+            <img src="img/wsplogo.png" alt="">
+        <a href="https://api.whatsapp.com/send?phone=3338931832" target="_blank">+39 333 8931832</a>
+        </div>
+        <div class="instagramcontacto">
+            <img src="img/instalogo.png" alt="">
+            <a href="http://www.instagram.com/rossolegends" target="_blank">rossolegends</a></li>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footercontent">
+            <p><strong>Ubicazione:</strong> Modena CAP 41125, Italia</p>
+            <p>Rosso Legends - Tutti i diritti riservati 2024</p>
+            <p>Seguici su: 
+                <a href="http://www.instagram.com/rossolegends" target="_blank">Instagram</a> | 
+                <a href="https://wa.me/393338931832" target="_blank">WhatsApp</a> | 
+                <a href="mailto:rossolegends@gmail.com" target="_blank">Email</a>
+            </p>
+        </div>
+    </footer>
+    
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
